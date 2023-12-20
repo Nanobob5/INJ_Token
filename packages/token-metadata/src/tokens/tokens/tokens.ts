@@ -2364,5 +2364,14 @@ export default {
       address: '0x5085202d0A4D8E4724Aa98C42856441c3b97Bc6d',
       tokenType: TokenType.Erc20,
     },
+
+   FINJ: {
+    name: 'FISH INJ',
+    symbol: 'FINJ',
+    decimals: 6,
+    coinGeckoId: '',
+    tokenType: TokenType.TokenFactory,
+  },
+
   },
 } as Record<string, TokenMeta>
